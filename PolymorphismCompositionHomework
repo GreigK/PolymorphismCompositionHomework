@@ -1,0 +1,66 @@
+<!-- Polymorphism & Composition Homework
+
+
+Polymorphism
+
+What does the word 'polymorphism' mean?
+
+	Polymorphism means "many forms"
+
+
+
+What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+	Is when we have many classes that are related to each other by inheritance.
+	Inheritance lets us inherit attributes and methods from another 						class. Polymorphism uses those methods to perform different tasks.
+
+
+
+What can we use to implement polymorphism in Java?
+
+	We can use abstract classes and interfaces
+
+
+
+How many 'forms' can an object take when using polymorphism?
+
+	Multiple forms?
+
+	
+
+Give an example of when you could use polymorphism.
+	
+	When a parent class reference is used to refer to a child class object.
+
+Composition and Aggregation
+
+
+What do we mean by 'composition' in reference to object-oriented programming?
+	
+	Describes a class that references one or more objects of other classes in instance 			variables
+
+
+When would you use composition? Provide a simple example in Java.
+
+	We can use composition in cases where one object "has" (or is part of) another object.
+	A car has its parts e.g., engines, wheels, music player, etc. The car cannot function 			without an engine and wheels but can function without a music player. Here the engine 			and car have a composition relation.
+
+Give a difference between composition and aggregation
+	
+	Aggregation is a relatively weak association, whereas Composition is a strong association.
+
+
+What is/are the advantage(s) of using composition/aggregation?
+
+	"HAS-A" relationship is more semantically correct than "IS-A" relationship between 			classes.
+	Composition is more flexible than inheritance.
+
+
+When using composition, when an object is destroyed, what happens to all the objects it is composed of?
+
+	 The child objects also cease to exist.
+
+
+When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
+
+	The child objects also cease to exist? -->
